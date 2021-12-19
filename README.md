@@ -32,7 +32,7 @@ Check out the schematic/copmponent choice [here](Schematic.md)
 
 ## Components needed
 
-Biscuit is based on ESP-01 boards, you find these in batches of 5pcs for very cheap locally or on [ali](https://nl.aliexpress.com/item/32693314450.html)
+Biscuit is based on ESP-01 boards, you find these in batches of 5pcs for very cheap locally or on [ali](https://aliexpress.com/item/32693314450.html)
 IMU can be chosen depending on the current support status of SlimeVR, check [THE DOCS](https://docs.slimevr.dev/components-guide.html) for that
 
 Required per tracker:
@@ -40,7 +40,7 @@ Required per tracker:
 - IMU
 - 1x 10µF capacitor 1206
 - 2x 1µF capacitor 1206
-- 1x [ME6211C33M](https://nl.aliexpress.com/item/32959896723.html) (3.3V LDO regulator)
+- 1x [ME6211C33M](https://aliexpress.com/item/32959896723.html) (3.3V LDO regulator)
 
 There are several options that can be chosen:
 
@@ -49,10 +49,10 @@ There are several options that can be chosen:
 This extension allows for 1.8V IMUs (or other voltages smaller than 3.3V) like the ICM-20948 to be connected to the tracker.
 
 Required per tracker:
-- 1x ME6211 of the right voltage like [ME6211C18](https://nl.aliexpress.com/item/1005002058216911.html) for 1.8v
+- 1x ME6211 of the right voltage like [ME6211C18](https://aliexpress.com/item/1005002058216911.html) for 1.8v
 - 2x 1µF capacitor 1206
-- 2x BSS138 level shifters for I2C lines
-- (Optional) 2x BSS138 level shifters for INT lines
+- 2x [BSS138](https://aliexpress.com/item/32944629649.html) level shifters for I2C lines
+- (Optional) 2x [BSS138](https://aliexpress.com/item/32944629649.html) level shifters for INT lines
 
 Also foreseen are 8 spots to solder 1206 pullup resistors in case these are needed because either the IMU board doesn't supply them or they are not small enough. I2C pullup resistor values are a complicated topic of trial and error, if you are not sure you need these, do not solder any resistors.
 
@@ -63,7 +63,7 @@ Note: INT pins are not compatible with LED/Serial logging
 The external ADC is the most expensive option on Biscuit, but it will give a good reading of the battery voltage and thus how full your batteries are. Recommended is that you add one or a few on a tracker with similar batteries and charge them together, this should give you a general status of all your trackers since they should last about the same time.
 
 Required per tracker:
-- 1x MCP3021 (I2C ADC)
+- 1x [MCP3021](https://aliexpress.com/item/32632899790.html) (I2C ADC)
 - 1x 100nF capacitor 1206
 - 1x 9.1k resistor 1206
 - 1x 5.1k resistor 1206
@@ -74,7 +74,7 @@ The external LED is not compatible with uploading wifi credentials over serial c
 
 Required per tracker:
 - 1x basic single color 3mm LED (color of choice)
-- 1x BSS138 FET
+- 1x [BSS138](https://aliexpress.com/item/32944629649.html) FET
 - 1x 3.3k resistor 1206
 
 ### Incompatibilities
