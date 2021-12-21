@@ -44,7 +44,7 @@ Required per tracker:
 
 There are several options that can be chosen:
 
-### Level shifter
+### Option 1: Level shifter
 
 This extension allows for 1.8V IMUs (or other voltages smaller than 3.3V) like the ICM-20948 to be connected to the tracker.
 
@@ -58,7 +58,7 @@ Also foreseen are 8 spots to solder 1206 pullup resistors in case these are need
 
 Note: INT pins are not compatible with LED/Serial logging
 
-### External ADC
+### Option 2: External ADC
 
 The external ADC is the most expensive option on Biscuit, but it will give a good reading of the battery voltage and thus how full your batteries are. Recommended is that you add one or a few on a tracker with similar batteries and charge them together, this should give you a general status of all your trackers since they should last about the same time.
 
@@ -68,7 +68,7 @@ Required per tracker:
 - 1x 9.1k resistor 1206
 - 1x 5.1k resistor 1206
 
-### External LED
+### Option 3: External LED
 
 The external LED is not compatible with uploading wifi credentials over serial connection and the internal INT pin support. This LED can show status of the tracker.
 
