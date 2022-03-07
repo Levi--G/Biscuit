@@ -6,9 +6,11 @@ Biscuit is a custom PCB for a [SlimeVR](https://github.com/SlimeVR/SlimeVR-Track
 
 ![](/img/BiscuitFull.jpg)
 
+You can find the gerber and diptrace files in the [pcb folder](/pcb)
+
 Check how to build and configure one of these [here](Construction.md)
 
-Check out the schematic/copmponent choice [here](Schematic.md)
+Check out the schematic/component choice [here](Schematic.md)
 
 ## Features
 
